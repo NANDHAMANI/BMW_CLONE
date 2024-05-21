@@ -1,0 +1,505 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header
+{
+	width: 100%;
+	height: auto;
+	position: relative;
+/*	background-color: red;*/
+}
+.menu
+{
+	width: 85%;
+	height: auto;
+	margin: auto;
+	background-color: yellow;
+}
+.menus li
+{
+	list-style-type: none;
+	display: inline-block;
+	padding: 15px 10px;
+	margin-bottom: 9px;
+	color: #FFFFF5;
+}
+.menus
+{
+	border-bottom: 1px solid #FFFFFF;
+	margin: 20px 0px;
+}
+.main
+{
+	position: absolute;
+	top: 0;
+	width: 85%;
+	height: auto;
+
+}
+.img
+{
+	float: right;
+	margin-top: 15px;
+
+}
+.img img
+{
+	margin-right: 20px;
+}
+.now
+{
+	position: absolute;
+	bottom: 20%;
+}
+.now h4
+{
+	background-color: blue;
+	padding: 20px;
+	color: #FFE4E3;
+	cursor: pointer;
+	border-radius: 3px;
+}
+.now h4:hover
+{
+	background-color: #0653B6;
+}
+
+
+.banner
+{
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	position: relative;
+}
+.text
+{
+	position: absolute;
+	top: 35%;
+	left: 10%;
+	color: #FFFFFF;
+	font-family: "Open Sans", sans-serif;
+}
+.text h4
+{
+	letter-spacing: 2px;
+}
+.text h1
+{
+	font-size: 200px;
+	margin-bottom: -50px;
+	margin-top: -50px;
+}
+.text h5
+{
+	margin-top: 30px;
+	border: 2px solid #f2f2f2;
+	width: 40%;
+	padding: 15px 0px 15px 15px;
+	font-size: 15px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.text h5:hover
+{
+	color: #FFFFE8 ;
+}
+
+
+.content
+{
+	width: 100%;
+	height: auto;
+	margin-top: 30px;
+}
+.content h1
+{
+	font-family: "Open Sans", sans-serif;
+
+}
+.car
+{
+	width: 75%;
+	height: 300px;
+/*	background-color: gray;*/
+	margin: auto;
+	margin-top: 35px;
+	display: flex;
+}
+.car1
+{
+	width: 33.3%;
+	height: auto;
+}
+.car1 img
+{
+	width: 100%;
+}
+.car1 h5
+{
+	margin-top: 40px;
+	border: 1px solid gray;
+	width: 40%;
+	padding: 10px;
+	color: #262626;
+	font-size: 20px;
+	border-radius: 3px;
+	font-family: "Open Sans", sans-serif;
+	cursor: pointer;
+}
+.car1 H5:hover
+{
+	border: 1px solid #262626;
+}
+.car2
+{
+	width: 33.3%;
+	height: auto;
+}
+.car2 img
+{
+	width: 100%;
+}
+.car2 h5
+{
+	margin-top: 40px;
+	border: 1px solid gray;
+	width: 70%;
+	padding: 10px;
+	color: #262626;
+	font-size: 20px;
+	border-radius: 3px;
+	font-family: "Open Sans", sans-serif;
+	cursor: pointer;
+}
+.car2 H5:hover
+{
+	border: 1px solid #262626;
+}
+.car3
+{
+	width: 33.3%;
+	height: auto;
+}
+.car3 img
+{
+	width: 100%;
+}
+.car3 h5
+{
+	margin-top: 40px;
+	border: 1px solid gray;
+	width: 60%;
+	padding: 10px;
+	color: #262626;
+	font-size: 20px;
+	border-radius: 3px;
+	font-family: "Open Sans", sans-serif;
+	cursor: pointer;
+
+}
+.car3 H5:hover
+{
+	border: 1px solid #262626;
+}
+
+
+.banner1
+{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.text1
+{
+	position: absolute;
+	top: 30%;
+	left: 7%;
+}
+.text1 h1
+{
+	font-size: 37px;
+	color: #FFFCF9;
+	font-family: "Open Sans", sans-serif;
+
+}
+.text1 h5
+{
+	width: 40%;
+	margin-top: 30px;
+	font-size: 15px;
+	padding: 10px 20px;
+	border: 1px solid gray;
+	text-align: center;
+	color: #FFFFFA;
+	font-family: "Open Sans", sans-serif;
+	cursor: pointer;
+}
+.text1 h5:hover
+{
+	border: 1px solid #FFFFFF;
+}
+
+
+.content1
+{
+	width: 100%;
+	height: 790px;
+	margin-top: 25px;
+	border-bottom: 1px solid #E6E6E6 ;
+}
+.content2
+{
+	width: 85%;
+	margin: auto;
+	height: 400px;
+
+}
+.text2
+{
+	float: left;
+}
+.text2 h4
+{
+
+	margin-top: 70px;
+	margin-left: 20px;
+	color: #7F6666;
+}
+.text2 h1
+{
+	margin-top: 10px;
+	margin-left: 20px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 50px;
+	color: #262626;
+}
+.text2 p
+{
+	margin-top: 20px;
+	margin-left: 20px;
+	color: #262626;
+}
+.text2 h5
+{
+	margin-top: 50px;
+	margin-left: 20px;
+	border: 1px solid gray;
+	width: 15%;
+	padding: 15px 20px;
+	font-family: "Open Sans", sans-serif;
+	border-radius: 3px;
+	cursor: pointer;
+
+}
+.text2 h5:hover
+{
+	border: 1px solid #262626;
+}
+.content3
+{
+	width: 85%;
+	margin: auto;
+	height: auto;
+	margin-top: 25px;
+}
+.text3
+{
+	float: left;
+/*	border-bottom: 3px solid #E6E6E6;*/
+}
+.text3 h4
+{
+
+	margin-top: 70px;
+	margin-left: 20px;
+	color: #7F6666;
+}
+.text3 h1
+{
+	margin-top: 10px;
+	margin-left: 20px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 50px;
+	color: #262626;
+}
+.text3 p
+{
+	margin-top: 20px;
+	margin-left: 20px;
+	color: #262626;
+/*	font-family: "Open Sans", sans-serif;*/
+
+}
+.text3 h5
+{
+	margin-top: 30px;
+	margin-left: 20px;
+	border: 1px solid gray;
+	width: 15%;
+	padding: 15px 20px;
+	font-family: "Open Sans", sans-serif;
+	border-radius: 3px;
+	cursor: pointer;
+/*	margin-bottom: 30px;*/
+
+
+}
+.text3 h5:hover
+{
+	border: 1px solid #262626;
+}
+
+
+.footer
+{
+	width: 100%;
+	height: 90px;
+/*	margin-top: 10px;*/
+/*	background-color: darkred;*/
+}
+.footer1
+{
+	width: 85%;
+	margin: auto;
+	height: 90px;
+	background-color: #FFFFFF;
+}
+.footer1 h5
+{
+	float: left;
+	margin-top: 33px;
+	font-family: "Open Sans", sans-serif;
+
+}
+.footer1 h3
+{
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
+	font-family: "Open Sans", sans-serif;
+
+}
+.footer2
+{
+	width: 85%;
+	margin: auto;
+	height: 320px;
+	background-color: #F6F6F6;
+	display: flex;
+}
+.footer3
+{
+	width: 25%;
+	height: 320px;
+}
+.footer3 h5
+{
+	margin-top: 75px;
+	font-family: "Open Sans", sans-serif;
+
+}
+.footer3 h3
+{
+	margin-top: 10px;
+	font-family: "Open Sans", sans-serif;
+
+}
+.footer4
+{
+	width: 35%;
+	height: 320px;
+}
+.footer4 h5
+{
+	margin-top: 75px;
+	font-family: "Open Sans", sans-serif;
+
+}
+.footer4 h3
+{
+	margin-top: 10px;
+	font-family: "Open Sans", sans-serif;
+
+}
+.footer5
+{
+	width: 20%;
+	height: 320px;
+}
+.footer5 h5
+{
+	margin-top: 75px;
+	font-family: "Open Sans", sans-serif;
+
+}
+.footer5 h3
+{
+	margin-top: 10px;
+	font-family: "Open Sans", sans-serif;
+
+}
+.footer6
+{
+	width: 20%;
+	height: 320px;
+}
+.footer6 h5
+{
+	margin-top: 75px;
+	font-family: "Open Sans", sans-serif;
+
+}
+.footer6 h3
+{
+	margin-top: 10px;
+	font-family: "Open Sans", sans-serif;
+
+}
+
+
+.bg
+{
+	background-color: #F6F6F6;
+}
+.footer7
+{
+	width: 85%;
+	margin: auto;
+	height: 60px;
+	background-color: #F6F6F6;
+}
+.footer7 img
+{
+	width: 3%;
+}
+
+
+.footer8
+{
+	width: 85%;
+	height: 80px;
+	margin: auto;
+/*	background-color: darkred;*/
+/*	float: left;*/
+}
+.footer8 h5
+{
+	float: left;
+	margin-top: 30px;
+	font-family: "Open Sans", sans-serif;
+
+}
+
+.footer9 
+{
+	float: right;
+}
+.footer9 h5
+{
+	margin-left: 25px;
+	margin-right: 2px;
+	font-family: "Open Sans", sans-serif;
+
+}
